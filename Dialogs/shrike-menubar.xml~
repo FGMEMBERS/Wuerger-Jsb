@@ -1,0 +1,20 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <default>
+    <menu n="10">
+      <label>IAR-80</label>
+      <enabled type="bool">true</enabled>
+      <item>
+        <label>Select livery</label>
+        <binding>
+          <command>nasal</command>
+          <script>aircraft.livery.dialog.toggle()</script>
+        </binding>
+      </item>
+    </menu>
+  </default>
+
+</PropertyList>
+

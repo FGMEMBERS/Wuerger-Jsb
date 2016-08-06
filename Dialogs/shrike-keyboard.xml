@@ -1,0 +1,138 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<PropertyList>
+
+	<key n="16"> 
+		<name>Ctrl-P</name>
+		<desc>Toggle automatic Propeller adjustment.</desc>
+		<binding> 
+			<command>property-toggle</command>
+			<property>/controls/engines/engine[0]/prop-auto</property>
+		</binding>
+	</key>
+
+	<key n="67">
+		<name>C</name>
+		<desc>Toggle Canopy</desc>
+		<binding n="0">
+			<command>nasal</command>
+			<script>fw190.toggle_canopy()</script>
+		</binding>
+	</key>
+
+	<key n="4">
+		<name>Ctrl-d</name>
+		<desc>drop Tank</desc>
+		<binding>
+			<command>nasal</command>
+			<script>fw190.drop_tank()</script>
+		</binding>
+	</key>  
+
+	<key n="100"> 
+		<name>d</name>
+		<desc>Toggle Master Arm on</desc>
+		<binding> 
+			<command>property-adjust</command>
+			<property>/controls/armament/master-arm</property>
+			<step type="double">1</step>
+			<min type="double">0</min>
+			<max type="double">1</max>
+		</binding>
+	</key>
+
+	<key n="68"> 
+		<name>D</name>
+		<desc>Toggle Master Arm off</desc>
+		<binding> 
+			<command>property-adjust</command>
+			<property>/controls/armament/master-arm</property>
+			<step type="double">-1</step>
+			<min type="double">0</min>
+			<max type="double">1</max>
+		</binding>
+	</key>
+
+	<key n="101">
+		<name>e</name>
+		<desc>Fire MG</desc>
+		<binding>
+			<command>nasal</command>
+			<script>fw190.fire_MG()</script>
+		</binding>
+		<mod-up>
+			<binding>
+				<command>nasal</command>
+				<script>fw190.stop_MG()</script>
+			</binding>
+		</mod-up>
+	</key>
+
+	<key n="69">
+		<name>E</name>
+		<desc>fire engine Cannon</desc>
+		<binding>
+			<command>nasal</command>
+			<script>fw190.fire_cannon()</script>
+		</binding>
+		<mod-up>
+			<binding>
+				<command>nasal</command>
+				<script>fw190.stop_cannon()</script>
+			</binding>
+		</mod-up>
+	</key>
+
+	<key n="5">
+		<name>Ctrl-e</name>
+		<desc>drop Center Load</desc>
+		<binding>
+			<command>nasal</command>
+			<script>fw190.drop_bomb()</script>
+		</binding>
+	</key>  
+
+	<key n="102">
+		<name>f</name>
+		<desc>fuel tank select</desc>
+		<binding>
+			<command>nasal</command>
+			<script>fw190.fuel_switch()</script>
+		</binding>
+	</key> 
+
+	<key n="72">
+		<name>H</name>
+		<desc>Fire WGr 21</desc>
+		<binding n="0">
+			<command>nasal</command>
+			<script>fw190.fire_wgr()</script>
+		</binding>
+	</key>
+
+	<key n="115">
+		<name>s</name>
+		<binding>
+			<command>nasal</command>
+			<script>fw190.starter(1)</script>
+		</binding>
+		<mod-up>
+			<binding>
+				<command>nasal</command>
+				<script>fw190.starter(0)</script>
+			</binding>
+		</mod-up>
+	</key> 
+
+	<!-- Livery Box -->
+	<key n="108">
+		<name>l</name>
+		<desc>Show livery select dialog</desc>
+		<binding>
+			<command>nasal</command>
+			<script>livery.showModelSelectDialog()</script>
+		</binding>
+	</key>
+
+</PropertyList>
+
