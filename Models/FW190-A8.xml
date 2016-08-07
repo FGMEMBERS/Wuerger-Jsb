@@ -10,12 +10,12 @@
  </offsets>
 <!--
     <effect>
-  <inherits-from>Aircraft/fw190/Models/Effects/fw190_bumpspec</inherits-from>
+  <inherits-from>Aircraft/Wuerger-JSB/Models/Effects/fw190_bumpspec</inherits-from>
   <object-name>fuselage</object-name>
     </effect>
 -->
 	<model>
-		<path>Aircraft/fw190/Models/equipment.xml</path>
+		<path>Aircraft/Wuerger-JSB/Models/equipment.xml</path>
 		<nopreview/>
 	</model>
 
@@ -23,7 +23,7 @@
 
 	<model>
 		<name>cockpit</name>
-		<path>Aircraft/fw190/Models/cockpit.xml</path>
+		<path>Aircraft/Wuerger-JSB/Models/cockpit.xml</path>
 	</model>
 	<animation>
   <object-name>cockpit</object-name>
@@ -35,7 +35,7 @@
 	<animation>
 		<type>shader</type>
 		<shader>chrome</shader>
-		<texture>Aircraft/fw190/Models/glass_shader.png</texture>
+		<texture>Aircraft/Wuerger-JSB/Models/glass_shader.png</texture>
 		<object-name>canopyglass</object-name>
 		<object-name>frontglass</object-name>
 	</animation>
@@ -101,7 +101,7 @@
   <model>
     <name>pdisk</name>
 		<nopreview/>
-    <path>Aircraft/fw190/Models/pdisk.xml</path>
+    <path>Aircraft/Wuerger-JSB/Models/pdisk.xml</path>
     <offsets>
    <x-m>-0.1</x-m>
    <y-m>0.0</y-m>
@@ -526,7 +526,7 @@
   </model>
 <!-- Pilot -->
     <model> 
-      <path>Aircraft/fw190/Models/pilot.xml</path>
+      <path>Aircraft/Wuerger-JSB/Models/pilot.xml</path>
 	  <name>pilot</name>
 		<nopreview/>
       <offsets> 
