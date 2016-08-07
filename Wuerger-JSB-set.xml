@@ -31,7 +31,7 @@
 
 		<!-- Splash screen while loading -->
 		<startup>
-			<splash-texture>Aircraft/fw190/splash1.png</splash-texture>
+			<splash-texture>Aircraft/Wuerger-JSB/splash1.png</splash-texture>
 		</startup>
 
 		<!-- Making noise -->
@@ -42,7 +42,7 @@
 		<!-- Settings for model -->
 		<model>
 			<!-- Path to main model file -->
-			<path>Aircraft/fw190/Models/FW190-A8.xml</path>
+			<path>Aircraft/Wuerger-JSB/Models/FW190-A8.xml</path>
 
 			<!-- JPack: push forces for Voodoomaster Pushback -->
 			<pushback>
@@ -72,7 +72,7 @@
 
 		<submodels>
 			<serviceable type="bool">1</serviceable>
-			<path>Aircraft/fw190/Models/shrike-submodels.xml</path>
+			<path>Aircraft/Wuerger-JSB/Models/shrike-submodels.xml</path>
 		</submodels>
 
 		<!-- basic startup settings for sim -->
@@ -106,11 +106,11 @@
 
 		<!-- Instrumentation and systems in sim -->
 		<systems>
-			<path>Aircraft/fw190/Systems/shrike-systems.xml</path>
+			<path>Aircraft/Wuerger-JSB/Systems/shrike-systems.xml</path>
 		</systems>
 
 		<instrumentation>
-			<path>Aircraft/fw190/Systems/shrike-instrumentation.xml</path>
+			<path>Aircraft/Wuerger-JSB/Systems/shrike-instrumentation.xml</path>
 		</instrumentation>
  
 		<!-- #### MP section if exists -->
@@ -492,11 +492,11 @@
 	<nasal>
 
 		<fw190>
-			<file>Aircraft/fw190/Nasal/fw190.nas</file>
+			<file>Aircraft/Wuerger-JSB/Nasal/fw190.nas</file>
 			<script>init();</script>
 		</fw190>
 		<failure>
-			<file>Aircraft/fw190/Nasal/failure.nas</file>
+			<file>Aircraft/Wuerger-JSB/Nasal/failure.nas</file>
 		</failure>
 	</nasal>
 

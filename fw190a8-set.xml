@@ -66,7 +66,7 @@ February 2006,  Detlef Faber
 
   <submodels> 
     <serviceable type="bool">true</serviceable>
-    <path>Aircraft/fw190/Models/submodels.xml</path>
+    <path>Aircraft/Wuerger-JSB/Models/submodels.xml</path>
   </submodels>
 
   <panel>
@@ -75,7 +75,7 @@ February 2006,  Detlef Faber
   </panel>
 
   <model>
-   <path>Aircraft/fw190/Models/FW190-A8.xml</path>
+   <path>Aircraft/Wuerger-JSB/Models/FW190-A8.xml</path>
    <livery>
      <file type="string">desert</file>
 			<texture type="string">fw190-1.png</texture>
@@ -501,11 +501,11 @@ lower Flaps and Gear under 300 km/h. Approach Speed is 210 km/h. Speed at Tresho
   <nasal>
 
     <fw190>
-      <file>Aircraft/fw190/Nasal/fw190.nas</file>
+      <file>Aircraft/Wuerger-JSB/Nasal/fw190.nas</file>
       <script>init();</script>
     </fw190>
 		<failure>
-			<file>Aircraft/fw190/Nasal/failure.nas</file>
+			<file>Aircraft/Wuerger-JSB/Nasal/failure.nas</file>
 		</failure>
   </nasal>
 
