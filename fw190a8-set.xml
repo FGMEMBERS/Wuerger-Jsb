@@ -501,7 +501,7 @@ lower Flaps and Gear under 300 km/h. Approach Speed is 210 km/h. Speed at Tresho
   <nasal>
 
     <fw190>
-      <file>Aircraft/Wuerger-Jsb/Nasal/fw190.nas</file>
+      <file>Aircraft/Wuerger-Jsb/Nasal/Wuerger.nas</file>
       <script>init();</script>
     </fw190>
 		<failure>

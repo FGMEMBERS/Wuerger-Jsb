@@ -492,7 +492,7 @@
 	<nasal>
 
 		<fw190>
-			<file>Aircraft/Wuerger-Jsb/Nasal/fw190.nas</file>
+			<file>Aircraft/Wuerger-Jsb/Nasal/Wuerger.nas</file>
 			<script>init();</script>
 		</fw190>
 		<failure>
