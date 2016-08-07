@@ -31,7 +31,7 @@
 
 		<!-- Splash screen while loading -->
 		<startup>
-			<splash-texture>Aircraft/Wuerger-Jsb/splash1.png</splash-texture>
+			<splash-texture>Aircraft/Wuerger-Jsb/Splash/Wuerger-splash.png</splash-texture>
 		</startup>
 
 		<!-- Making noise -->
