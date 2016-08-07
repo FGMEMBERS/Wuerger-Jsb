@@ -20,7 +20,7 @@ February 2006,  Detlef Faber
   </startup>
 -->  
   <flight-model>yasim</flight-model>
-  <aero>fw190a8-yasim</aero>
+  <aero>Aero/fw190a8-yasim</aero>
 	
 	<failure>
 		<emptyweight type ="float">7380</emptyweight>
