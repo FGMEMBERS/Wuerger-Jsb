@@ -8,7 +8,7 @@ OBJECT poly
 name "casing"
 data 4
 Cube
-texture "bf109-5.rgb"
+texture "bf109-5.png"
 texrep 1 1
 crease 30
 numvert 60
@@ -728,7 +728,7 @@ OBJECT poly
 name "fixture"
 data 8
 Cube.003
-texture "bf109-5.rgb"
+texture "bf109-5.png"
 texrep 1 1
 crease 30
 numvert 53

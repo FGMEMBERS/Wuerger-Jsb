@@ -7,7 +7,7 @@ OBJECT poly
 name "smoke"
 data 6
 Sphere
-texture "blaze.rgb"
+texture "blaze.png"
 texrep 1 1
 crease 30
 numvert 13

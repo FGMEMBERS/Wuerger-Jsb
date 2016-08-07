@@ -9,7 +9,7 @@ OBJECT poly
 name "casing"
 data 4
 Cube
-texture "bf109-5.rgb"
+texture "bf109-5.png"
 texrep 1 1
 crease 30.000000
 numvert 54
@@ -482,7 +482,7 @@ OBJECT poly
 name "crosshair"
 data 8
 Cube.004
-texture "cross.rgb"
+texture "cross.png"
 texrep 1 1
 crease 30.000000
 numvert 4
@@ -503,7 +503,7 @@ OBJECT poly
 name "fixture"
 data 8
 Cube.003
-texture "bf109-5.rgb"
+texture "bf109-5.png"
 texrep 1 1
 crease 30.000000
 numvert 35
@@ -851,7 +851,7 @@ OBJECT poly
 name "plate"
 data 8
 Cube.005
-texture "bf109-5.rgb"
+texture "bf109-5.png"
 texrep 1 1
 crease 30.000000
 numvert 27
@@ -1014,7 +1014,7 @@ OBJECT poly
 name "shadeholder"
 data 8
 Cube.006
-texture "bf109-5.rgb"
+texture "bf109-5.png"
 texrep 1 1
 crease 30.000000
 numvert 37
