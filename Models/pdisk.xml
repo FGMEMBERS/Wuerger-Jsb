@@ -8,7 +8,7 @@
 	
   <model>
     <name>pdisk</name>
-    <path>Aircraft/Wuerger-JSB/Models/pdisk.ac</path>
+    <path>Aircraft/Wuerger-Jsb/Models/pdisk.ac</path>
     <offsets>
       <x-m>0.0</x-m>
       <y-m>0.0</y-m>

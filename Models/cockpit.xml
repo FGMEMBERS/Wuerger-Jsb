@@ -17,7 +17,7 @@
 
 <!-- Main Instrument Panel -->
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/alt-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/alt-ger.xml</path>
   <offsets>
    <x-m>3.208</x-m>
    <y-m>-0.22</y-m>
@@ -26,7 +26,7 @@
  </model>
 
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/asi750-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/asi750-ger.xml</path>
   <offsets>
    <x-m>3.208</x-m>
    <y-m>-0.155</y-m>
@@ -35,7 +35,7 @@
  </model>
 
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/att-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/att-ger.xml</path>
   <offsets>
    <x-m>3.208</x-m>
    <y-m>-0.073</y-m>
@@ -44,7 +44,7 @@
  </model> 
 
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/vario30-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/vario30-ger.xml</path>
   <offsets>
    <x-m>3.208</x-m>
    <y-m>0.012</y-m>
@@ -53,7 +53,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/remote-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/remote-ger.xml</path>
   <offsets>
    <x-m>3.208</x-m>
    <y-m>0.096</y-m>
@@ -62,7 +62,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/man18-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/man18-ger.xml</path>
   <offsets>
    <x-m>3.208</x-m>
    <y-m>0.18</y-m>
@@ -71,7 +71,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/tach35-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/tach35-ger.xml</path>
   <offsets>
    <x-m>3.208</x-m>
    <y-m>0.219</y-m>
@@ -80,7 +80,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/afn2.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/afn2.xml</path>
   <offsets>
    <x-m>3.19</x-m>
    <y-m>0.114</y-m>
@@ -88,7 +88,7 @@
   </offsets>
  </model>
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/revi-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/revi-ger.xml</path>
   <offsets>
    <x-m>3.28</x-m>
    <y-m>0.046</y-m>
@@ -97,7 +97,7 @@
  </model>
 <!-- Auxillary Panel -->
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/fuelsw-fw.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/fuelsw-fw.xml</path>
   <offsets>
    <x-m>3.256</x-m>
    <y-m>-0.284</y-m>
@@ -107,7 +107,7 @@
   </offsets>
  </model>
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/engine-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/engine-ger.xml</path>
   <offsets>
    <x-m>3.224</x-m>
    <y-m>-0.147</y-m>
@@ -116,7 +116,7 @@
   </offsets>
  </model>
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/oiltemp.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/oiltemp.xml</path>
   <offsets>
    <x-m>3.224</x-m>
    <y-m>-0.066</y-m>
@@ -126,7 +126,7 @@
  </model>
 
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/fuelgauge.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/fuelgauge.xml</path>
   <offsets>
    <x-m>3.224</x-m>
    <y-m>0.020</y-m>
@@ -135,7 +135,7 @@
   </offsets>
  </model>
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/pitchindicator.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/pitchindicator.xml</path>
   <offsets>
    <x-m>3.224</x-m>
    <y-m>0.102</y-m>
@@ -144,7 +144,7 @@
   </offsets>
  </model>
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/fuel-half.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/fuel-half.xml</path>
   <offsets>
    <x-m>3.219</x-m>
    <y-m>0.153</y-m>
@@ -153,7 +153,7 @@
   </offsets>
  </model>
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/fuel-reserve.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/fuel-reserve.xml</path>
   <offsets>
    <x-m>3.231</x-m>
    <y-m>0.153</y-m>
@@ -162,7 +162,7 @@
   </offsets>
  </model>
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/tanksw.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/tanksw.xml</path>
   <offsets>
    <x-m>3.233</x-m>
    <y-m>0.195</y-m>
@@ -171,7 +171,7 @@
   </offsets>
  </model>
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/o2guard.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/o2guard.xml</path>
   <offsets>
    <x-m>3.252</x-m>
    <y-m>0.298</y-m>
@@ -182,7 +182,7 @@
   </offsets>
  </model>
  <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/o2pressure.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/o2pressure.xml</path>
   <offsets>
    <x-m>3.283</x-m>
    <y-m>0.33</y-m>
@@ -194,7 +194,7 @@
  </model>
 <!-- left Cosole -->
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/dimmer.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/dimmer.xml</path>
   <offsets>
    <x-m>3.356</x-m>
    <y-m>-0.363</y-m>
@@ -204,7 +204,7 @@
   </offsets>
  </model>
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/shutoff.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/shutoff.xml</path>
   <offsets>
    <x-m>3.397</x-m>
    <y-m>-0.311</y-m>
@@ -214,7 +214,7 @@
   </offsets>
  </model>
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/throttle-fw.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/throttle-fw.xml</path>
   <offsets>
    <x-m>3.457</x-m>
    <y-m>-0.411</y-m>
@@ -223,7 +223,7 @@
   </offsets>
  </model>
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/ignition-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/ignition-ger.xml</path>
   <offsets>
    <x-m>3.445</x-m>
    <y-m>-0.349</y-m>
@@ -233,7 +233,7 @@
   </offsets>
  </model>
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/gear-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/gear-ger.xml</path>
   <offsets>
    <x-m>3.53</x-m>
    <y-m>-0.366</y-m>
@@ -244,7 +244,7 @@
  </model>
 
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/trimind.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/trimind.xml</path>
   <offsets>
    <x-m>3.53</x-m>
    <y-m>-0.306</y-m>
@@ -255,7 +255,7 @@
  </model>
 
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/gearsw-fw.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/gearsw-fw.xml</path>
   <offsets>
    <x-m>3.61</x-m>
    <y-m>-0.31</y-m>
@@ -266,7 +266,7 @@
  </model>
 
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/primer-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/primer-ger.xml</path>
   <offsets>
    <x-m>3.78</x-m>
    <y-m>-0.41</y-m>
@@ -277,7 +277,7 @@
 <!-- right Console -->
 
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/simpleclock.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/simpleclock.xml</path>
   <offsets>
    <x-m>3.363</x-m>
    <y-m>0.319</y-m>
@@ -287,7 +287,7 @@
   </offsets>
  </model>
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/breaker.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/breaker.xml</path>
   <offsets>
    <x-m>3.388</x-m>
    <y-m>0.397</y-m>
@@ -297,7 +297,7 @@
   </offsets>
  </model>
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/breaker.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/breaker.xml</path>
   <offsets>
    <x-m>3.412</x-m>
    <y-m>0.397</y-m>
@@ -306,7 +306,7 @@
 	<heading-deg>-90</heading-deg>
   </offsets>
  </model><model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/breaker.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/breaker.xml</path>
   <offsets>
    <x-m>3.439</x-m>
    <y-m>0.397</y-m>
@@ -315,7 +315,7 @@
 	<heading-deg>-90</heading-deg>
   </offsets>
  </model><model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/breaker.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/breaker.xml</path>
   <offsets>
    <x-m>3.465</x-m>
    <y-m>0.397</y-m>
@@ -324,7 +324,7 @@
 	<heading-deg>-90</heading-deg>
   </offsets>
  </model><model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/breaker.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/breaker.xml</path>
   <offsets>
    <x-m>3.492</x-m>
    <y-m>0.397</y-m>
@@ -334,7 +334,7 @@
   </offsets>
  </model>
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/Instruments/starter-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/Instruments/starter-ger.xml</path>
   <offsets>
    <x-m>3.598</x-m>
    <y-m>0.386</y-m>
@@ -346,7 +346,7 @@
 <!--
 
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/canopy-rel-ger.ac</path>
+  <path>Aircraft/Wuerger-Jsb/Models/canopy-rel-ger.ac</path>
   <offsets>
    <x-m>2.98</x-m>
    <y-m>-0.2</y-m>
@@ -410,7 +410,7 @@
  </model>
 
 <model>
-  <path>Aircraft/Wuerger-JSB/Models/primer-ger.xml</path>
+  <path>Aircraft/Wuerger-Jsb/Models/primer-ger.xml</path>
   <offsets>
    <x-m>3.69</x-m>
    <y-m>-0.39</y-m>
