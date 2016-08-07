@@ -25,13 +25,13 @@
 		<collision-report>sim/ai/aircraft/collision/gun</collision-report>
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/gun</impact-report>
-		<submodel-path>Aircraft/bf109/Models/subsubmodels.xml</submodel-path>
+		<submodel-path>Aircraft/Wuerger-Jsb/Models/subsubmodels.xml</submodel-path>
   </submodel>
 
 <!-- termporarly disabled
 	<submodel> 
       <name>left-up-smoke</name>
-      <model>Aircraft/bf109/Models/smoke.xml</model>
+      <model>Aircraft/Wuerger-Jsb/Models/smoke.xml</model>
       <trigger>controls/armament/trigger</trigger>
       <speed>10</speed>
       <repeat>true</repeat>
@@ -71,12 +71,12 @@
 		<collision-report>sim/ai/aircraft/collision/gun</collision-report>
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/gun</impact-report>
-		<submodel-path>Aircraft/bf109/Models/subsubmodels.xml</submodel-path>
+		<submodel-path>Aircraft/Wuerger-Jsb/Models/subsubmodels.xml</submodel-path>
   </submodel>
 <!--
 	<submodel> 
       <name>right-smoke</name>
-      <model>Aircraft/bf109/Models/smoke.xml</model>
+      <model>Aircraft/Wuerger-Jsb/Models/smoke.xml</model>
       <trigger>controls/armament/trigger</trigger>
       <speed>10</speed>
       <repeat>true</repeat>
@@ -116,7 +116,7 @@
 		<collision-report>sim/ai/aircraft/collision/cannon</collision-report>
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/cannon</impact-report>
-		<submodel-path>Aircraft/bf109/Models/subsubmodels.xml</submodel-path>
+		<submodel-path>Aircraft/Wuerger-Jsb/Models/subsubmodels.xml</submodel-path>
   </submodel>
 
 
@@ -271,12 +271,12 @@
 		<collision-report>sim/ai/aircraft/collision/cannon</collision-report>
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/cannon</impact-report>
-		<submodel-path>Aircraft/bf109/Models/subsubmodels.xml</submodel-path>
+		<submodel-path>Aircraft/Wuerger-Jsb/Models/subsubmodels.xml</submodel-path>
   </submodel>
 <!--
 	<submodel> 
       <name>left-smoke</name>
-      <model>Aircraft/bf109/Models/smoke.xml</model>
+      <model>Aircraft/Wuerger-Jsb/Models/smoke.xml</model>
       <trigger>controls/armament/trigger2</trigger>
       <speed>10</speed>
       <repeat>true</repeat>
@@ -316,12 +316,12 @@
 		<collision-report>sim/ai/aircraft/collision/cannon</collision-report>
 		<impact>true</impact>
 		<impact-report>sim/ai/aircraft/impact/cannon</impact-report>
-		<submodel-path>Aircraft/bf109/Models/subsubmodels.xml</submodel-path>
+		<submodel-path>Aircraft/Wuerger-Jsb/Models/subsubmodels.xml</submodel-path>
   </submodel>
 <!--
 	<submodel> 
       <name>right-smoke</name>
-      <model>Aircraft/bf109/Models/smoke.xml</model>
+      <model>Aircraft/Wuerger-Jsb/Models/smoke.xml</model>
       <trigger>controls/armament/trigger2</trigger>
       <speed>10</speed>
       <repeat>true</repeat>
