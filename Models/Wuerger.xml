@@ -19,8 +19,6 @@
 		<nopreview/>
 	</model>
 
-
-
 	<model>
 		<name>cockpit</name>
 		<path>Aircraft/Wuerger-Jsb/Models/cockpit.xml</path>
@@ -546,7 +544,6 @@
    </greater-than>
   </condition>
  </animation>
-
 
   <animation>
     <type>material</type>

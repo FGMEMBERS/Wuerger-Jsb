@@ -280,4 +280,4 @@ var flash1_trigger = props.globals.getNode("controls/armament/trigger1", 0);
 aircraft.light.new("sim/model/fw190/lighting/flash-wr", [0.05, 0.052], flash1_trigger);
 aircraft.light.new("sim/model/fw190/lighting/flash-wl", [0.052, 0.05], flash1_trigger);
 
-aircraft.livery.init("Aircraft/fw190/Models/Liveries");
+aircraft.livery.init("Aircraft/Wuerger-Jsb/Models/Liveries");
