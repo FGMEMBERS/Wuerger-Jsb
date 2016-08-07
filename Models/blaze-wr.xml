@@ -8,7 +8,7 @@
    <object-name>noshadow.blaze2</object-name>
      <condition>
        <equals>
-         <property>sim/model/fw190/lighting/flash-wr/state</property>
+         <property>sim/model/Wuerger-Jsb/lighting/flash-wr/state</property>
          <value>true</value>
        </equals>
      </condition>
