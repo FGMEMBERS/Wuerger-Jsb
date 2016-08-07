@@ -42,7 +42,7 @@
 		<!-- Settings for model -->
 		<model>
 			<!-- Path to main model file -->
-			<path>Aircraft/Wuerger-Jsb/Models/FW190-A8.xml</path>
+			<path>Aircraft/Wuerger-Jsb/Models/Wuerger.xml</path>
 
 			<!-- JPack: push forces for Voodoomaster Pushback -->
 			<pushback>

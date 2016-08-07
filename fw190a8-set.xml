@@ -75,7 +75,7 @@ February 2006,  Detlef Faber
   </panel>
 
   <model>
-   <path>Aircraft/Wuerger-Jsb/Models/FW190-A8.xml</path>
+   <path>Aircraft/Wuerger-Jsb/Models/Wuerger.xml</path>
    <livery>
      <file type="string">desert</file>
 			<texture type="string">fw190-1.png</texture>
