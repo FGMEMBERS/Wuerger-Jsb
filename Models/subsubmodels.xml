@@ -1,4 +1,5 @@
 <?xml version="1.0"?>
+
 <!--  Submodels are objects which can be dropped or launched from the user aircraft.
       The trigger is a boolean property, which you define, which when "true" causes
       the submodel to be released/launched. 
@@ -39,25 +40,26 @@
       <aero-stabilised> If true, the submodel aligns with the local airflow. Defaults to true
       
 -->
+
 <PropertyList>
 
-  <submodel>
-    <name>MG impact smoke</name>
-    <model>Aircraft/Wuerger-Jsb/Models/impact.xml</model>
-    <!--<trigger>ai/submodels/trigger</trigger>-->
-    <speed>0</speed>
-    <repeat>true</repeat>
+	<submodel>
+		<name>MG impact smoke</name>
+		<model>Aircraft/Wuerger-Jsb/Models/impact.xml</model>
+		<!--<trigger>ai/submodels/trigger</trigger>-->
+		<speed>0</speed>
+		<repeat>true</repeat>
 		<delay>0.3</delay>
-    <count>90</count>
-    <x-offset>0</x-offset>
-    <y-offset>0</y-offset>
-    <z-offset>0</z-offset>
-    <yaw-offset>0</yaw-offset>
-    <pitch-offset>0</pitch-offset>
-    <eda>10</eda>
-    <wind>true</wind>
-    <buoyancy>35</buoyancy>
-    <life>1.0</life>
-  </submodel> 
+		<count>90</count>
+		<x-offset>0</x-offset>
+		<y-offset>0</y-offset>
+		<z-offset>0</z-offset>
+		<yaw-offset>0</yaw-offset>
+		<pitch-offset>0</pitch-offset>
+		<eda>10</eda>
+		<wind>true</wind>
+		<buoyancy>35</buoyancy>
+		<life>1.0</life>
+	</submodel> 
 
 </PropertyList>

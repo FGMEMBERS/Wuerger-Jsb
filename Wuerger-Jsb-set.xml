@@ -27,7 +27,7 @@
 		</rating>
 
 		<flight-model>jsb</flight-model>
-  		<aero>Aero/Shrike-Jsb</aero>
+  		<aero>Aero/Wuerger-Jsb</aero>
 
 		<!-- Splash screen while loading -->
 		<startup>
@@ -36,7 +36,7 @@
 
 		<!-- Making noise -->
 		<sound>
-			<path>Aircraft/p51d/p51d-sound.xml</path>
+			<path>Aircraft/Wuerger-Jsb/Sound/wuerger-sound.xml</path>
 		</sound>
 
 		<!-- Settings for model -->
@@ -66,19 +66,28 @@
 		</model> 
 
 		<!-- Add menus to the bar -->
-		<menubar include="Dialogs/shrike-menubar.xml" />
+		<menubar include="Dialogs/wuerger-menubar.xml" />
 		
 		<!-- Subsection for submodels -->
 
 		<submodels>
 			<serviceable type="bool">1</serviceable>
-			<path>Aircraft/Wuerger-Jsb/Models/shrike-submodels.xml</path>
+			<path>Aircraft/Wuerger-Jsb/Models/wuerger-submodels.xml</path>
 		</submodels>
 
 		<!-- basic startup settings for sim -->
 		<freeze>
 			<fuel>false</fuel>	<!-- false is default -->
 		</freeze>
+
+		<gui>
+			<dialogs>
+				<autopilot>
+					<kts-select type="bool">true</kts-select>
+					<mach-select tpye="bool">false</mach-select>
+				</autopilot>
+			</dialogs>
+		</gui>
 
 		<fuel-fraction>0.8</fuel-fraction>
 
@@ -106,7 +115,13 @@
 
 		<!-- Instrumentation and systems in sim -->
 		<systems>
+
+			<autopilot>
+				<path>Aircraft/JPack/Voodoomaster/Systems/SYS9_0_autopilot.xml</path>
+			</autopilot>
+
 			<path>Aircraft/Wuerger-Jsb/Systems/shrike-systems.xml</path>
+
 		</systems>
 
 		<instrumentation>
@@ -353,61 +368,70 @@
 		</fuel>
 	</consumables>
 
-	<weight n="0">
-		<name>Fuselage</name>
-		<tank>1</tank>
-		<weight-lb>0</weight-lb>
-		<selected>none</selected>
-		<opt>
-			<name>none</name>
-			<lbs>0</lbs>
-		</opt>
-		<opt>
-			<name>Droptank</name>
-			<lbs>50.0</lbs>
-			<gals>86</gals>
-		</opt>
-		<opt>
-			<name>SC250 Bomb</name>
-			<lbs>552.0</lbs>
-		</opt>
-	</weight>
+	<!-- payload and whatever else has weight -->
+	<payload>
 
-	<weight n="1">
-		<name>left Wing</name>
-		<weight-lb type="double">0</weight-lb>
-		<selected>none</selected>
-		<opt>
-			<name>none</name>
-			<lbs>0</lbs>
-		</opt>
-		<opt>
-			<name>MG 151 Machine gun</name>
-			<lbs>110.0</lbs>
-		</opt>
-		<opt>
-			<name>WGr 21 Rocket</name>
-			<lbs>270.0</lbs>
-		</opt>
-	</weight>
+		<weight n="0">
+			<name>Pilot</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[0]" />
+			<min-lb type="double">  140</min-lb>
+			<max-lb type="double">  240</max-lb>
+		</weight>
 
-	<weight n="2">
-		<name>right Wing</name>
-		<weight-lb type="double">0</weight-lb>
-		<selected>none</selected>
-		<opt>
-			<name>none</name>
-			<lbs>0</lbs>
-		</opt>
-		<opt>
-			<name>MG 151 Machine gun</name>
-			<lbs>110.0</lbs>
-		</opt>
-		<opt>
-			<name>WGr 21 Rocket</name>
-			<lbs>270.0</lbs>
-		</opt>
-	</weight>
+		<weight n="1">
+			<name>Fuselage</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[1]" />
+			<selected>none</selected>
+			<opt>
+				<name>none</name>
+				<lbs>0</lbs>
+			</opt>
+			<opt>
+				<name>Droptank</name>
+				<lbs>50.0</lbs>
+			</opt>
+			<opt>
+				<name>SC250 Bomb</name>
+				<lbs>552.0</lbs>
+			</opt>
+		</weight>
+
+		<weight n="2">
+			<name>left Wing</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[2]" />
+			<selected>none</selected>
+			<opt>
+				<name>none</name>
+				<lbs>0</lbs>
+			</opt>
+			<opt>
+				<name>MG 151 Machine gun</name>
+				<lbs>110.0</lbs>
+			</opt>
+			<opt>
+				<name>WGr 21 Rocket</name>
+				<lbs>270.0</lbs>
+			</opt>
+		</weight>
+
+		<weight n="3">
+			<name>right Wing</name>
+			<weight-lb alias="/fdm/jsbsim/inertia/pointmass-weight-lbs[3]" />
+			<selected>none</selected>
+			<opt>
+				<name>none</name>
+				<lbs>0</lbs>
+			</opt>
+			<opt>
+				<name>MG 151 Machine gun</name>
+				<lbs>110.0</lbs>
+			</opt>
+			<opt>
+				<name>WGr 21 Rocket</name>
+				<lbs>270.0</lbs>
+			</opt>
+		</weight>
+	</payload>
 
 	<engines>
 		<engine>
@@ -454,7 +478,6 @@
 
 		<gear>
 			<tailwheel-lock>true</tailwheel-lock>
-			<bellybrake type="float">1.0</bellybrake>
 			<brake-parking type="double">1</brake-parking>
 		</gear>
 
@@ -476,28 +499,46 @@
 	</controls>
 
 	<!-- Sytems and instruments parallel to sim section -->
-	<!-- set prop for the manual "bookmark" arrow on the remote compas -->
+	<!-- set prop for the manual "bookmark" arrow on the remote compass -->
 	<instrumentation>
 		<magnetic-compass>
 			<bookmark-heading-deg type="double">43.0</bookmark-heading-deg>
 		</magnetic-compass>
 	</instrumentation>
 
+	<!-- Systems parallel to sim -->
+	<systems>
+		<electrical>
+			<path>Aircraft/Generic/generic-electrical.xml</path>
+		</electrical>
+		<autopilot>
+			<path>Aircraft/JPack/Voodoomaster/Systems/SYS9_0_autopilot.xml</path>
+		</autopilot>
+	</systems>
+
 	<!-- Map Keys -->
 	<input>
-		<keyboard include="Dialogs/shrike-keyboard.xml"/>
+		<keyboard include="Dialogs/wuerger-keyboard.xml"/>
 	</input>
+  
+	<!-- Voodoomaster plane specific initializations -->
+	<voodoomaster>
+		<steering-wheel type="int">2</steering-wheel>
+		<steering-type type="string">Taildragger-steer</steering-type>	<!-- Alternativ: Taildragger-lock or TriCycle -->
+		<pushback>
+			<activated type="bool">false</activated>
+		</pushback>
+	</voodoomaster>
 
 	<!-- Nasal files/scripts -->
 	<nasal>
 
 		<fw190>
-			<file>Aircraft/Wuerger-Jsb/Nasal/Wuerger.nas</file>
-			<script>init();</script>
+			<file>Aircraft/Wuerger-Jsb/Nasal/weights.nas</file>
 		</fw190>
-		<failure>
+		<!-- failure>
 			<file>Aircraft/Wuerger-Jsb/Nasal/failure.nas</file>
-		</failure>
+		</failure -->
 	</nasal>
 
 

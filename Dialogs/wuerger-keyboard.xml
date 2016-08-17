@@ -109,28 +109,57 @@
 			<script>fw190.fire_wgr()</script>
 		</binding>
 	</key>
-
-	<key n="115">
-		<name>s</name>
+	<key n="48">
+		<name>0</name>
+		<desc>Boost0</desc>
 		<binding>
-			<command>nasal</command>
-			<script>fw190.starter(1)</script>
+			<command>property-assign</command>
+			<property>fdm/jsbsim/propulsion/engine[0]/boost-speed</property>
+			<value>0</value>
 		</binding>
-		<mod-up>
-			<binding>
-				<command>nasal</command>
-				<script>fw190.starter(0)</script>
-			</binding>
-		</mod-up>
-	</key> 
+	</key>
 
-	<!-- Livery Box -->
-	<key n="108">
-		<name>l</name>
-		<desc>Show livery select dialog</desc>
+	<key n="49">
+		<name>1</name>
+		<desc>Boost1</desc>
 		<binding>
-			<command>nasal</command>
-			<script>livery.showModelSelectDialog()</script>
+			<command>property-assign</command>
+			<property>fdm/jsbsim/propulsion/engine[0]/boost-speed</property>
+			<value>1</value>
+		</binding>
+	</key>
+
+	<key n="50">
+		<name>2</name>
+		<desc>Boost2</desc>
+		<binding>
+			<command>property-assign</command>
+			<property>fdm/jsbsim/propulsion/engine[0]/boost-speed</property>
+			<value>2</value>
+		</binding>
+	</key>
+
+	<key n="110">
+		<name>n</name>
+		<desc>Propeller Pitch</desc>
+		<binding>
+			<command>property-adjust</command>
+			<property>fdm/jsbsim/propulsion/engine[0]/blade-angle</property>
+			<step type="double">-1.0</step>
+			<min type="double">18</min>
+			<max type="double">45</max>
+		</binding>
+	</key>
+
+	<key n="78">
+		<name>N</name>
+		<desc>Propeller Pitch</desc>
+		<binding>
+			<command>property-adjust</command>
+			<property>fdm/jsbsim/propulsion/engine[0]/blade-angle</property>
+			<step type="double">1.0</step>
+			<min type="double">18</min>
+			<max type="double">45</max>
 		</binding>
 	</key>
 

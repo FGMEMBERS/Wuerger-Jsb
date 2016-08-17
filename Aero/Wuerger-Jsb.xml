@@ -17,10 +17,10 @@
 		Inputs:
 			name:          Fw-190 Wuerger (Shrike)
 			type:          WWII fighter, subsonic sport, aerobatic
-			max weight:    6570 lb
-			wing span:     36'1" ft
-			length:        29'4" ft
-			wing area:     183 sq-ft
+			max weight:    10800.0 lb
+			wing span:     34'5" ft
+			length:        29'5" ft
+			wing area:     196.99 sq-ft
 			gear type:     taildragger
 			retractable?:  yes
 			# engines:     1
@@ -29,8 +29,8 @@
 			yaw damper?    no
 
 		Outputs:
-			wing loading:  35.90 lb/sq-ft
-			payload:       918.5 lbs
+			wing loading:  54.83 lb/sq-ft
+			payload:       2422.4 lbs
 			CL-alpha:      4.5 per radian
 			CL-0:          0.17
 			CL-max:        1.2
@@ -39,16 +39,16 @@
 	-->
 
 	<metrics>
-		<wingarea  unit="FT2">  183.00 </wingarea>
-		<wingspan  unit="FT" >   36.00 </wingspan>
+		<wingarea  unit="FT2">  196.99 </wingarea>
+		<wingspan  unit="FT" >   34.00 </wingspan>
 		<wing_incidence>          2.00 </wing_incidence>
-		<chord     unit="FT" >    5.08 </chord>
-		<htailarea unit="FT2">   31.11 </htailarea>
+		<chord     unit="FT" >    5.79 </chord>
+		<htailarea unit="FT2">   33.49 </htailarea>
 		<htailarm  unit="FT" >   17.40 </htailarm>
-		<vtailarea unit="FT2">   18.30 </vtailarea>
+		<vtailarea unit="FT2">   19.70 </vtailarea>
 		<vtailarm  unit="FT" >   17.40 </vtailarm>
 		<location name="AERORP" unit="IN">
-			<x> 239.20 </x>
+			<x> 161.20 </x>
 			<y>   0.00 </y>
 			<z>   0.00 </z>
 		</location>
@@ -60,38 +60,72 @@
 		<location name="VRP" unit="IN">
 			<x>0</x>
 			<y>0</y>
-			<z>0</z>
+			<z>60</z>
 		</location>
 	</metrics>
 
 	<mass_balance>
-		<ixx unit="SLUG*FT2">      3558 </ixx>
-		<iyy unit="SLUG*FT2">      4104 </iyy>
-		<izz unit="SLUG*FT2">      7016 </izz>
-		<emptywt unit="LBS" >      4850 </emptywt>
+		<ixx unit="SLUG*FT2">      4619 </ixx>
+		<iyy unit="SLUG*FT2">      5974 </iyy>
+		<izz unit="SLUG*FT2">      9594 </izz>
+
+		<emptywt unit="LBS" >      7060 </emptywt>
+
 		<location name="CG" unit="IN">
-			<x> 239.20 </x>
+			<x> 161.20 </x>
 			<y>   0.00 </y>
 			<z>  -8.70 </z>
 		</location>
-		<pointmass name="Payload">
-			<description> 918 LBS + full (802 LBS) fuel should bring model up to entered max weight</description>
-			<weight unit="LBS">    459.2 </weight>
+
+		<pointmass name="Pilot">
+			<description>Pilot</description>
+			<weight unit="LBS">200</weight>
 			<location name="POINTMASS" unit="IN">
-				<x> 239.20 </x>
+				<x> 127.00 </x>
 				<y>   0.00 </y>
 				<z>  -8.70 </z>
 			</location>
 		</pointmass> 
+
+		<pointmass name="Fuselage">
+			<description>Fuselage</description>
+			<weight unit="LBS">0</weight>
+			<location name="POINTMASS" unit="IN">
+				<x> 101.00 </x>
+				<y>   0.00 </y>
+				<z>  -8.70 </z>
+			</location>
+		</pointmass> 
+
+		<pointmass name="Left Wing">
+			<description>Left Wing</description>
+			<weight unit="LBS">0</weight>
+			<location name="POINTMASS" unit="IN">
+				<x> 101.20 </x>
+				<y>   0.00 </y>
+				<z>  -8.70 </z>
+			</location>
+		</pointmass> 
+
+		<pointmass name="Right Wing">
+			<description>Right Wing</description>
+			<weight unit="LBS">0</weight>
+			<location name="POINTMASS" unit="IN">
+				<x> 101.20 </x>
+				<y>   0.00 </y>
+				<z>  -8.70 </z>
+			</location>
+		</pointmass> 
+
 	</mass_balance>
 
 	<ground_reactions>
 
 		<contact type="BOGEY" name="LEFT_MAIN">
 			<location unit="IN">
-				<x> 126.67 </x>
+				<x> 99.67 </x>
 				<y> -64.80 </y>
-				<z> -69.60 </z>
+				<z> -17.187 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
@@ -105,9 +139,9 @@
 
 		<contact type="BOGEY" name="RIGHT_MAIN">
 			<location unit="IN">
-				<x> 126.67 </x>
+				<x> 99.67 </x>
 				<y>  64.80 </y>
-				<z> -69.60 </z>
+				<z> -17.187 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
@@ -121,9 +155,9 @@
 
 		<contact type="BOGEY" name="TAIL">
 			<location unit="IN">
-				<x> 316.68 </x>
+				<x> 346.68 </x>
 				<y>   0.00 </y>
-				<z> -20.88 </z>
+				<z>  45.60 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
@@ -177,6 +211,8 @@
 			</orient>
 			<feed>0</feed>
 			<feed>1</feed>
+			<feed>2</feed>
+			<feed>3</feed>
 			<thruster file="Prop">
 				<sense> 1 </sense>
 				<location unit="IN">
@@ -194,42 +230,46 @@
 
 		<tank type="FUEL" number="0">
 			<location unit="IN">
-				<x> 239.20 </x>
+				<x> 107.20 </x>
 				<y>   0.00 </y>
 				<z>  -8.70 </z>
 			</location>
+			<priority>3</priority>
 			<capacity unit="LBS"> 406.45 </capacity>
 			<contents unit="LBS"> 406.45 </contents>
 		</tank>
 
 		<tank type="FUEL" number="1">
 			<location unit="IN">
-				<x> 239.20 </x>
+				<x> 147.20 </x>
 				<y>   0.00 </y>
 				<z>  -8.70 </z>
 			</location>
+			<priority>3</priority>
 			<capacity unit="LBS"> 406.45 </capacity>
 			<contents unit="LBS"> 406.45 </contents>
 		</tank>
 
 		<tank type="FUEL" number="2">
 			<location unit="IN">
-				<x> 239.20 </x>
+				<x> 339.20 </x>
 				<y>   0.00 </y>
 				<z>  -8.70 </z>
 			</location>
+			<priority>2</priority>
 			<capacity unit="LBS"> 183.32 </capacity>
-			<contents unit="LBS"> 183.32 </contents>
+			<contents unit="LBS">   0.00 </contents>
 		</tank>
 
 		<tank type="FUEL" number="3">
 			<location unit="IN">
-				<x> 239.20 </x>
+				<x> 101.20 </x>
 				<y>   0.00 </y>
 				<z>  -8.70 </z>
 			</location>
+			<priority>1</priority>
 			<capacity unit="LBS"> 464.92 </capacity>
-			<contents unit="LBS"> 464.92 </contents>
+			<contents unit="LBS">   0.00 </contents>
 		</tank>
 
 	</propulsion>

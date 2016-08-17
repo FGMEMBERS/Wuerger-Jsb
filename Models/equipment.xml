@@ -113,7 +113,7 @@
 		<object-name>leftwgr</object-name>
 		<condition>   
 			<equals>
-				<property>sim/weight[1]/selected</property>
+				<property>/payload/weight[2]/selected</property>
 				<value>WGr 21 Rocket</value>
 			</equals>
 		</condition>
@@ -124,8 +124,8 @@
 		<object-name>leftrocket</object-name>
 		<condition>   
 			<equals>
-				<property>sim/weight[1]/weight-lb</property>
-				<value>270.0</value>
+				<property>/payload/weight[2]/selected</property>
+				<value>xWGr 21 Rocket</value>
 			</equals>
 		</condition>
  	</animation>	
@@ -135,7 +135,7 @@
 		<object-name>rightwgr</object-name>
 		<condition>   
 			<equals>
-				<property>sim/weight[2]/selected</property>
+				<property>/payload/weight[3]/selected</property>
 				<value>WGr 21 Rocket</value>
 			</equals>
 		</condition>
@@ -146,61 +146,59 @@
 		<object-name>rightrocket</object-name>
 		<condition>   
 			<equals>
-				<property>sim/weight[2]/weight-lb</property>
-				<value>270.0</value>
+				<property>/payload/weight[3]/selected</property>
+				<value>xWGr 21 Rocket</value>
 			</equals>
 		</condition>
  	</animation>	
 
-<!--Droptank -->
+	<!--Droptank -->
+	<animation>
+		<type>select</type>
+		<object-name>Droptank</object-name>
+		<condition>
+			<equals>
+				<property>/payload/weight[1]/selected</property>
+				<value>Droptank</value>
+			</equals>
+		</condition>
+	</animation>
 
- <animation>
-  <type>select</type>
-  <object-name>Droptank</object-name>
-  <condition>
-   <equals>
-    <property>sim/weight[0]/weight-lb</property>
-    <value>50.0</value>
-   </equals>
-  </condition>
- </animation>
+	<!--SC 250 Bomb -->
 
-<!--SC 250 Bomb -->
+	<animation>
+		<type>select</type>
+		<object-name>sc250</object-name>
+		<condition>
+			<equals>
+				<property>/payload/weight[1]/selected</property>
+				<value>SC250 Bomb</value>
+			</equals>
+		</condition>
+	</animation>
 
- <animation>
-  <type>select</type>
-  <object-name>sc250</object-name>
-  <condition>
-   <equals>
-    <property>sim/weight[0]/weight-lb</property>
-    <value>552.0</value>
-   </equals>
-  </condition>
- </animation>
+	<!-- MG 151 gun pods -->
+	<animation>
+		<type>select</type>
+		<object-name>leftgun</object-name>
+		<condition>
+			<equals>
+				<property>/payload/weight[2]/selected</property>
+				<value>MG 151 Machine gun</value>
+			</equals>
+		</condition>
+	</animation>
 
-<!-- MG 151 gun pods -->
-
- <animation>
-  <type>select</type>
-  <object-name>leftgun</object-name>
-  <condition>
-   <equals>
-    <property>sim/weight[1]/weight-lb</property>
-    <value>110.0</value>
-   </equals>
-  </condition>
- </animation>
-
- <animation>
-  <type>select</type>
-  <object-name>rightgun</object-name>
-  <condition>
-   <equals>
-    <property>sim/weight[2]/weight-lb</property>
-    <value>110.0</value>
-   </equals>
-  </condition>
- </animation>
+	<animation>
+		<type>select</type>
+		<object-name>rightgun</object-name>
+		<condition>
+			<equals>
+				<property>/payload/weight[3]/selected</property>
+				<value>MG 151 Machine gun</value>
+			</equals>
+		</condition>
+	</animation>
 
 
 </PropertyList>
