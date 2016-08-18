@@ -37,12 +37,12 @@
 	<takeoffboost>  0 </takeoffboost> <!-- takeoff boost not used because it works poorly. -->
 
 	<ratedboost1 unit="INHG"> 12.1 </ratedboost1>
-	<ratedpower1 unit="HP">   3250 </ratedpower1>
+	<ratedpower1 unit="HP">   2250 </ratedpower1>
 	<ratedrpm1>               2700 </ratedrpm1>
 	<ratedaltitude1 unit="FT"> 0 </ratedaltitude1>	
 
 	<ratedboost2 unit="INHG"> 18.1 </ratedboost2>
-	<ratedpower2 unit="HP">   2100 </ratedpower2>
+	<ratedpower2 unit="HP">   1750 </ratedpower2>
 	<ratedrpm2>               2400 </ratedrpm2>
 	<ratedaltitude2 unit="FT"> 8000 </ratedaltitude2>	
 

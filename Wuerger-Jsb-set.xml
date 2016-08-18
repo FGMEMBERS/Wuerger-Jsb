@@ -287,20 +287,6 @@
 			---Landing---
 			lower Flaps and Gear under 300 km/h. Approach Speed is 210 km/h. Speed at Treshold should be 190 km/h. Flare to Threepoint attitude before touchdown. After Touchdown use Rudder to keep 				the Aircraft straight. Remember to slow down sufficiently before moving the stick forward to unlock the tailwheel.</text>
 		</help>
-
-		<!-- originally from D. Faber, exchange to SYS9 -->
-		<!--autopilot>
-			<config>
-				<min-climb-speed-kt type="float">70.0</min-climb-speed-kt>
-				<best-climb-speed-kt type="float">75.0</best-climb-speed-kt>
-				<target-climb-rate-fpm type="float">500.0</target-climb-rate-fpm>
-				<target-descent-rate-fpm type="float">1000.0</target-descent-rate-fpm>
-				<elevator-adj-factor type="float">4000.0</elevator-adj-factor>
-				<integral-contribution type="float">0.01</integral-contribution>
-				<zero-pitch-throttle type="float">0.45</zero-pitch-throttle>
-				<zero-pitch-trim-full-throttle type="float">0.14</zero-pitch-trim-full-throttle>
-			</config>
-		</autopilot -->
 	
 		<failure>
 			<emptyweight type ="float">7380</emptyweight>
@@ -520,6 +506,24 @@
 	<input>
 		<keyboard include="Dialogs/wuerger-keyboard.xml"/>
 	</input>
+   
+	<!-- Autopilot settings -->
+	<autopilot>
+
+		<settings>
+			<kts-mach-select type="string">kts</kts-mach-select>
+			<max-pitch type="double">8.0</max-pitch>
+			<min-pitch type="double">-6.0</min-pitch>
+			<bank-angle-limit-deg type="int">65</bank-angle-limit-deg>
+		</settings>
+
+		<internal>
+			<target-pitch-deg type="double">0.00</target-pitch-deg>
+			<max-pitch type="double">8.0</max-pitch>
+			<min-pitch type="double">-6.0</min-pitch>
+		</internal>
+
+	</autopilot>
   
 	<!-- Voodoomaster plane specific initializations -->
 	<voodoomaster>
