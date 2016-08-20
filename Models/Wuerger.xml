@@ -6,6 +6,19 @@
 
 	<path>Wuerger.ac</path>
 
+	<nasal>
+		<load>
+			var livery_update = aircraft.livery_update.new("Aircraft/Wuerger-Jsb/Models/Liveries", 10);
+
+			var self = cmdarg();
+
+		</load>
+
+		<unload>
+			livery_update.stop();
+		</unload>
+	</nasal>
+
 	<offsets>
 		<z-m>0.0</z-m>
 	</offsets>

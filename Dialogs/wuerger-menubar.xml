@@ -48,10 +48,10 @@
 					<enabled type="bool">true</enabled>
 					<item>
 						<label>Select Livery</label>
-              <binding>
-                <command>nasal</command>
-                <script>aircraft.livery.dialog.toggle()</script>
-              </binding>
+						<binding>
+							<command>nasal</command>
+							<script>aircraft.livery.dialog.toggle()</script>
+						</binding>
 					</item>
 
 			</menu>
