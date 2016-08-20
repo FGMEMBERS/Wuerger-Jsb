@@ -16,13 +16,13 @@
 -->
 
 <propeller name="prop">
-  <ixx>  44.94 </ixx>
+  <ixx>  24.94 </ixx>
   <diameter unit="IN"> 129.9 </diameter>
   <numblades> 4 </numblades>
   <gearratio>  1.56 </gearratio>
   <p_factor>  10.26 </p_factor>
   <constspeed> 0 </constspeed>
-  <minpitch> 12 </minpitch>
+  <minpitch> 15 </minpitch>
   <maxpitch> 45 </maxpitch>
   <minrpm>   1473 </minrpm>
   <maxrpm>   1733 </maxrpm>
