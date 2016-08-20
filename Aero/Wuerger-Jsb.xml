@@ -48,7 +48,7 @@
 		<vtailarea unit="FT2">   19.70 </vtailarea>
 		<vtailarm  unit="FT" >   17.40 </vtailarm>
 		<location name="AERORP" unit="IN">
-			<x> 161.20 </x>
+			<x> 141.20 </x>
 			<y>   0.00 </y>
 			<z>   0.00 </z>
 		</location>
@@ -72,7 +72,7 @@
 		<emptywt unit="LBS" >      7060 </emptywt>
 
 		<location name="CG" unit="IN">
-			<x> 161.20 </x>
+			<x> 141.20 </x>
 			<y>   0.00 </y>
 			<z>  -8.70 </z>
 		</location>
@@ -507,7 +507,7 @@
 					<property>aero/qbar-psf</property>
 					<property>metrics/Sw-sqft</property>
 					<property>fcs/flap-pos-deg</property>
-					<value> 0.01250 </value>
+					<value> 0.01650 </value>
 				</product>
 			</function>
 
