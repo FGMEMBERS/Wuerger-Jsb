@@ -539,6 +539,7 @@
 
 		<fw190>
 			<file>Aircraft/Wuerger-Jsb/Nasal/weights.nas</file>
+			<file>Aircraft/Wuerger-Jsb/Nasal/liveries.nas</file>
 		</fw190>
 		<!-- failure>
 			<file>Aircraft/Wuerger-Jsb/Nasal/failure.nas</file>
